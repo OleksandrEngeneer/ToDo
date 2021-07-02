@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::resource('/', 'TaskController');
+Route::post('done', 'TaskController@tasksDone');
+Route::post('reopen', 'TaskController@tasksReopen');

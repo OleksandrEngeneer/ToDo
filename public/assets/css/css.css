@@ -1,0 +1,51 @@
+input {
+    margin: 5px;
+}
+
+.box_form {
+    display: flex;
+    flex-direction: row;
+    border: 1px black solid;
+    margin: 5px;
+}
+
+.box_form:first-child {
+    background-color: #ADD8E6;
+}
+
+.btn1 {
+    background-color: blue;
+}
+
+.btn2 {
+    background-color: green;
+}
+
+.btn3 {
+    background-color: yellow;
+}
+
+.btn4 {
+    background-color: red;
+}
+
+.btn5 {
+    background-color: violet;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5 {
+    border-radius: 3px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 600;
+}
